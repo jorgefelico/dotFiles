@@ -45,4 +45,4 @@ filetype plugin indent on    " required
 " My Vim Stuff
 let g:airline_powerline_fonts = 1
 map <C-n> :NERDTreeToggle<CR>
-
+set number
