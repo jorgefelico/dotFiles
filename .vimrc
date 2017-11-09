@@ -43,19 +43,17 @@ filetype plugin indent on    " required
 
 
 " My Vim Stuff
-set encoding=utf8
-set nowrap
-syntax on
-
 let g:airline_powerline_fonts = 1
+"let g:airline#extensions#tabline#enabled = 1
+let g:hybrid_reduced_contrast = 1
+let g:hybrid_custom_term_colors = 1
+
 map <C-n> :NERDTreeToggle<CR>
 set number
 
 " Set Proper Tabs
- set tabstop=4
- set shiftwidth=4
- set smarttab
- set expandtab
-"
-" " Always display the status line
- set laststatus=2
+set tabstop=4
+set shiftwidth=4
+
+set t_Co=256
+set background=dark
